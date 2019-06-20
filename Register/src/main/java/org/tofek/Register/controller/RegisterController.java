@@ -42,6 +42,7 @@ public class RegisterController {
 				: null;
 		System.out.println("User Name :"+userDTO.getUsername());
 		System.out.println("Name :"+userDTO.getName());
+		System.out.println("This is TOfek KHan");
 
 	}
 	

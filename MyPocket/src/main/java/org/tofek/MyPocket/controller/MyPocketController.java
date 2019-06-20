@@ -34,7 +34,7 @@ public class MyPocketController {
 	public void getLogin(@PathVariable("username") String username ) {
 		System.out.println("-------- Inside the MyPocketController ---------------");
 		ResponseEntity<Boolean> isLogin = restTemplate.getForEntity("http://localhost:8092/login/"+username, Boolean.class);
-		
+		System.out.println("THis is tofek khan"+isLogin);
 	}
 	
 	@Autowired
